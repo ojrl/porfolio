@@ -6,25 +6,20 @@ nav li{
     padding-right: 64px;
 }
 nav a{
-    font-weight: 500;
-    color: black !important;
+    color: black;
 }
 nav .navbar-toggler{
-    background-color: #E20000;
+    background-color: white;
+    border: solid 4px #E20000;
+    color: #E20000;
 }
 nav .activePage{
     border: solid 1px #E20000;
     border-radius: 24px;
 }
-nav .btn{
-    background-color: #E20000;
-    color: white !important;
-    border-radius: 24px;
-    padding: 4px 24px;
-}
 h1{
     color: #E20000;
-    font-weight: 800;
+    font-weight: 500;
 }
 a{
     text-decoration: none;
@@ -33,7 +28,7 @@ footer a{
     color: white;
 }
 footer i{
-    font-size: 24px;
+    font-size: 32px;
     color: white;
 }
 footer .fa-whatsapp{
@@ -44,19 +39,30 @@ footer .fa-whatsapp{
     padding-top: 12px;
     width: 64px;
     height: 64px;
-    font-size: 32px;
 }
 footer .text-right{
     text-align: right;
+}
+.btn{
+    background-color: #E20000;
+    color: white;
+    border-radius: 24px;
+    padding: 4px 24px;
+}
+.btn:hover{
+    background-color: #370A6D !important;
+    color: white !important;
 }
 
 /* Página de Proyectos */
 
 #proyects{
-    background-color: white;
     background-image: url(../pictures/proyects-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+#proyects main{
+    height: 64vh;
 }
 #proyects .proyectContainer{
     background-color: white;
@@ -73,12 +79,6 @@ footer .text-right{
 #proyects .colorGradiente{
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
 }
-#proyects .btn{
-    background-color: #E20000;
-    color: white;
-    border-radius: 24px;
-    padding: 4px 24px;
-}
 #proyects .colorLink{
     color: #E20000;
     float: right;
@@ -94,13 +94,13 @@ footer .text-right{
 /* Página de Contacto */
 
 #contact{
-    background-color: #E20000;
+    background-color: #f71515;
     background-image: url(../pictures/contact-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 #contact main{
-    height: 60vh;
+    height: 64vh;
 }
 #contact input{
     border-radius: 16px;
@@ -120,18 +120,26 @@ footer .text-right{
     width: 160px;
     height: 40px;
     background-color: white;
-    border: 0px;
     border-radius: 24px;
     color: #370a6d;
-    font-weight: 700;
+    font-weight: 500;
     float: right;
 }
+
+/* Escritorios */
+
 @media (min-width: 576px){
     footer .text-sm-left{
         text-align: left !important;
     }
 }
+
+/* Móviles */
+
 @media (max-width: 576px){
+    footer .text-center{
+        text-align: center;
+    }
     #contact{
         background-color: white;
         background-image: url(../pictures/proyects-background.png);
