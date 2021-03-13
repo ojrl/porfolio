@@ -13,7 +13,7 @@
     <script src="js/bootstrap.min.js"></script>
     <title>Sobre mí</title>
 </head>
-<body>
+<body id="me">
     <nav class="navbar navbar-expand-sm">
         <div class="container my-0 my-sm-2 px-2 px-sm-0">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerButton" aria-controls="navbarTogglerButton" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
@@ -40,25 +40,263 @@
         </div>
     </nav>
     <header>
-        <div class="container mt-5 mb-3">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-12 px-2 px-sm-0">
+                <div class="col-12 col-sm-6 px-2 px-sm-0">
                     <h1>Sobre mí</h1>
+                    <p class="my-4">Soy Desarrollador web full-stack, apasionado por la tecnología y la gestión de proyectos.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="https://github.com/ojrl" title="Githup" target="_blank"><i class="fab fa-github me-2"></i></a>
+                            <a href="https://linkedin.com" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn" href="">Descarga mi CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 px-2 px-sm-0">
+                    <div class="pictureProfileContainer">
+                        <img class="pictureProfile" src="pictures/orlando-ramos.jpeg" alt="Orlando Ramos" title="Orlando Ramos">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-
     <main>
-
+        <section class="knowledgesSection">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 px-0 pb-5">
+                        <h2>Tecnologías de programación</h2>
+                    </div>
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center mx-0 px-4 py-5">
+                            <p class="mb-0">PHP</p>
+                            <img src="pictures/php-icon.jpg" alt="PHP">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center mx-0 px-4 py-5">
+                            <p class="mb-0">Javascript</p>
+                            <img src="pictures/javascript-icon.jpeg" alt="Javascript">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">HTML5</p>
+                            <img src="pictures/html5-icon.png" alt="HTML5">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">CSS</p>
+                            <img src="pictures/css-icon.png" alt="CSS">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Bootstrap</p>
+                            <img src="pictures/bootstrap-icon.png" alt="Bootstrap">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Git</p>
+                            <img src="pictures/git-icon.png" alt="Git">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">React.js</p>
+                            <img src="pictures/reac-js-icon.png" alt="React.js">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Laravel</p>
+                            <img src="pictures/laravel-icon.png" alt="Laravel">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">MySQL</p>
+                            <img src="pictures/mysql-icon.png" alt="MySQL">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">jQuery</p>
+                            <img src="pictures/jquery-icon.jpg" alt="jQuery">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Apache</p>
+                            <img src="pictures/apache.icon.png" alt="Apache">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Mercadopago</p>
+                            <img src="pictures/mercadopago-icon.jpg" alt="PMercadopago">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="skillsSection py-5">
+            <div class="container">
+                <div class="row justify-content-between px-2 px-sm-0">
+                    <div class="col-12 col-sm-6 shadow my-2 skillContainer">
+                        <div class="row">
+                            <div class="col-4 iconSkillContainer py-4">
+                                <i class="fas fa-comment-alt py-3"></i>
+                            </div>
+                            <div class="col-8 ps-3 pt-5">
+                                <div>
+                                    <h2 class="mb-1">IDIOMAS</h2>
+                                    <ul>
+                                        <li>ESPAÑOL: Nativo</li>
+                                        <li>INGLÉS: Básico</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 shadow my-2 skillContainer">
+                        <div class="row">
+                            <div class="col-4 iconSkillContainer py-4">
+                                <i class="fas fa-star py-3"></i>
+                            </div>
+                            <div class="col-8 pt-5 ps-3">
+                                <div>
+                                    <h2 class="mb-1">HOBBIES</h2>
+                                    <ul>
+                                        <li>Ejercicios</li>
+                                        <li>Videojuegos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experienceSection py-5">
+            <div class="container">
+                <div class="row px-2 px-sm-0">
+                    <div class="col-2 pb-5">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="col-10 px-4 px-sm-1 py-3">
+                        <h2>Experiencia Laboral</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center mb-5 px-2 px-sm-0">
+                    <div class="col-12 col-sm-6 shadow my-2 my-sm-0 experienceContainer">
+                        <div class="row">
+                            <div class="col-4 py-2">
+                                <i class="fas fa-building py-3"></i>
+                            </div>
+                            <div class="col-8 py-3">
+                                <div>
+                                    <h3 class="mb-1">Nombre del cargo</h3>
+                                    <h4>Nombre de la empresa </h4>
+                                    <p>Tiempo de duración</p>
+                                    <p class="workDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end pb-3">
+                                <div class="col-4">
+                                    <a class="btn" href="">Ver empresa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 shadow my-2 my-sm-0 experienceContainer">
+                        <div class="row">
+                            <div class="col-4 py-2">
+                                <i class="fas fa-building py-3"></i>
+                            </div>
+                            <div class="col-8 py-3">
+                                <div>
+                                    <h3 class="mb-1">Nombre del cargo</h3>
+                                    <h4>Nombre de la empresa </h4>
+                                    <p>Tiempo de duración</p>
+                                    <p class="workDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end pb-3">
+                                <div class="col-4">
+                                    <a class="btn" href="">Ver empresa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="studiesSection py-5">
+            <div class="container">
+                <div class="row px-2 px-sm-0">
+                    <div class="col-2 pb-5">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="col-10 px-4 px-sm-1 py-3">
+                        <h2>Estudios Realizados</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center px-2 px-sm-0">
+                    <div class="col-12 col-sm-6 shadow my-2 my-sm-0 studiesContainer">
+                        <div class="row">
+                            <div class="col-4 py-2">
+                                <i class="fas fa-book py-3"></i>
+                            </div>
+                            <div class="col-8 py-3">
+                                <div>
+                                    <h3 class="mb-1">Nombre del curso</h3>
+                                    <h4>Nombre de la empresa </h4>
+                                    <p>Tiempo de duración</p>
+                                    <p class="studieDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end pb-3">
+                                <div class="col-4">
+                                    <a class="btn" href="">Ver empresa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 shadow my-2 my-sm-0 studiesContainer">
+                        <div class="row">
+                            <div class="col-4 py-2">
+                                <i class="fas fa-book py-3"></i>
+                            </div>
+                            <div class="col-8 py-3">
+                                <div>
+                                    <h3 class="mb-1">Nombre del curso</h3>
+                                    <h4>Nombre de la empresa </h4>
+                                    <p>Tiempo de duración</p>
+                                    <p class="studieDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end pb-3">
+                                <div class="col-4">
+                                    <a class="btn" href="">Ver empresa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
-
-    <footer>
+    <footer class="pt-5">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-12 col-sm-3 text-center text-sm-left">
-                    <a href="https://github.com" title="Githup" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/ojrl" title="Githup" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="col-12 col-sm-3 text-center text-sm-left">
@@ -67,7 +305,7 @@
                 <div class="col-12 col-sm-3 text-center text-sm-left">
                     <a href="ojrl93@gmail.com" target="_blank">ojrl93@gmail.com</a>
                 </div>
-                <div class="col-12 col-sm-3 text-right">
+                <div class="col-12 col-sm-3 px-2 px-sm-0 text-right">
                     <a href="https://api.whatsapp.com/send?phone=541154768187" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>

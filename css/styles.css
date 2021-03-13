@@ -6,7 +6,8 @@ nav li{
     padding-right: 64px;
 }
 nav a{
-    color: #282828;
+    color: black;
+    font-weight: 600;
 }
 nav .navbar-toggler{
     background-color: white;
@@ -19,13 +20,27 @@ nav .activePage{
 }
 h1{
     color: #E20000;
-    font-weight: 500;
+    font-weight: 800;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+h4{
+    font-size: 16px;
+    font-weight: 800;
 }
 p{
     color: #6A6A6A;
 }
 a{
     text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 footer a{
     color: white;
@@ -53,8 +68,126 @@ footer .text-right{
     padding: 4px 24px;
 }
 .btn:hover{
-    background-color: #370A6D !important;
+    background-color: #370A6D;
     color: white !important;
+}
+
+/* Sobre mí */
+
+#me{
+    background-image: url(../pictures/proyects-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#me header i{
+    font-size: 48px;
+    color: #E20000;
+}
+#me header .btn{
+    padding: 8px 24px !important;
+
+}
+#me .pictureProfile{
+    display: block;
+    margin: auto;
+    max-width: max-content;
+    height: 320px;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+#me .knowledgesSection{
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+}
+#me .knowledgesSection h2{
+    color: white;
+}
+#me .knowledgesSection img{
+    height: 64px;
+}
+#me .card{
+    height: 184px;
+}
+#me .skillsSection{
+    background-color: #EEEEEE;
+}
+#me .skillContainer{
+    background-color: white;
+    width: 560px;
+    border-radius: 16px;
+}
+#me .skillContainer i{
+    color: white;
+    font-size: 80px;
+    display: block;
+    margin: auto;
+    max-width: max-content;
+}
+#me .iconSkillContainer{
+    background-color: #370A6D;
+    height: 160px;
+    border-radius: 16px;
+}
+#me .experienceContainer{
+    background-color: white;
+    width: 560px;
+    border-radius: 16px;
+}
+#me .experienceSection i{
+    color: #370A6D;
+    font-size: 64px;
+    display: block;
+    margin: auto;
+    max-width: max-content;
+}
+#me .experienceSection h4{
+    color: #370A6D;
+}
+#me .experienceSection .workDescription{
+    height: 96px;
+    overflow: auto;
+}
+#me .experienceSection .btn{
+    background-color: #370A6D;
+}
+#me .experienceSection .btn:hover{
+    background-color: #E20000;
+}
+#me .studiesSection{
+    background-color: #EEEEEE;
+}
+#me .studiesContainer{
+    background-color: white;
+    width: 560px;
+    border-radius: 16px;
+}
+#me .studiesSection i{
+    color: #E20000;
+    font-size: 64px;
+    display: block;
+    margin: auto;
+    max-width: max-content;
+}
+#me .studiesSection h4{
+    color: #E20000;
+}
+#me .studiesSection .studieDescription{
+    height: 96px;
+    overflow: auto;
+}
+#me .studiesSection .btn{
+    background-color: #E20000;
+}
+#me .studiesSection .btn:hover{
+    background-color: #370A6D;
+}
+#me footer{
+    background-color: #EEEEEE;
+}
+#me footer i{
+    color:#E20000;
+}
+#me footer a{
+    color: #E20000;
 }
 
 /* Página de Proyectos */
@@ -63,6 +196,9 @@ footer .text-right{
     background-image: url(../pictures/proyects-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+#proyects .card{
+    border-radius: 16px;
 }
 #proyects .card p{
     height: 80px;
@@ -80,10 +216,15 @@ footer .text-right{
 #proyects .colorGradiente{
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
 }
+#proyects main .btn{
+    text-transform: uppercase;
+}
 #proyects .colorLink{
     color: #E20000;
     float: right;
     margin: 4px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 #proyects footer i{
     color:#E20000;
@@ -125,6 +266,10 @@ footer .text-right{
     color: #370a6d;
     font-weight: 500;
     float: right;
+}
+#contact .submitButton:hover{
+    background-color: #370A6D;
+    color: white;
 }
 
 /* Escritorios */
