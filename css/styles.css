@@ -72,6 +72,45 @@ footer .text-right{
     color: white !important;
 }
 
+/* Inicio */
+
+#index{
+    background-color: #f71515;
+    background-image: url(../pictures/index-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#index main{
+    height: 66.5vh;
+}
+#index .profileContainer{
+    max-width: max-content;
+    margin: auto;
+}
+#index h2{
+    color: white;
+    border: 4px solid white;
+    border-radius: 16px;
+    padding: 8px 24px;
+}
+#index .buttonContainer{
+    max-width: max-content;
+    margin: auto;
+}
+#index .proyectsButton{
+    width: 208px;
+    height: 40px;
+    background-color: white;
+    border-radius: 24px;
+    color: #370a6d;
+    font-weight: 800;
+}
+#index .proyectsButton:hover{
+    background-color: #370A6D;
+    color: white;
+}
+
+
 /* Sobre mí */
 
 #me{
@@ -106,6 +145,9 @@ footer .text-right{
 }
 #me .card{
     height: 184px;
+}
+#me .apacheIcon{
+    width: 120px;
 }
 #me .skillsSection{
     background-color: #EEEEEE;
@@ -277,6 +319,10 @@ footer .text-right{
 @media (min-width: 576px){
     footer .text-sm-left{
         text-align: left !important;
+    }
+    #index section{
+        position: relative;
+        top: 472px;
     }
     #proyects main{
         height: 66.5vh;
