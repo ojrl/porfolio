@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerButton">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link activePage" href="me.html">Sobre mí</a>
+                        <a class="nav-link activePage" href="me.php">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="proyects.html">Proyectos</a>
+                        <a class="nav-link" href="proyects.php">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contacto</a>
+                        <a class="nav-link" href="contact.php">Contacto</a>
                     </li>
                 </ul>
                 <div class="my-2 my-sm-0">
@@ -56,8 +56,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 px-2 px-sm-0">
-                    <div class="pictureProfileContainer">
-                        <img class="pictureProfile" src="pictures/orlando-ramos.jpeg" alt="Orlando Ramos" title="Orlando Ramos">
+                    <div class="profileContainer">
+                        <img src="pictures/orlando-ramos.jpeg" alt="Orlando Ramos" title="Orlando Ramos">
                     </div>
                 </div>
             </div>

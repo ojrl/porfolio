@@ -36,11 +36,11 @@ h4{
 p{
     color: #6A6A6A;
 }
-a{
-    text-decoration: none;
-}
 ul{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 footer a{
     color: white;
@@ -83,15 +83,15 @@ footer .text-right{
 #index main{
     height: 66.5vh;
 }
-#index .profileContainer{
-    max-width: max-content;
-    margin: auto;
-}
 #index h2{
     color: white;
     border: 4px solid white;
     border-radius: 16px;
     padding: 8px 24px;
+}
+#index .profileContainer{
+    max-width: max-content;
+    margin: auto;
 }
 #index .buttonContainer{
     max-width: max-content;
@@ -126,10 +126,11 @@ footer .text-right{
     padding: 8px 24px !important;
 
 }
-#me .pictureProfile{
-    display: block;
+#me .profileContainer{
     margin: auto;
     max-width: max-content;
+}
+#me .profileContainer img{
     height: 320px;
     border: 12px solid white;
     border-radius: 50%;
@@ -359,3 +360,4 @@ footer .text-right{
         color: #E20000;
     }
 }
+

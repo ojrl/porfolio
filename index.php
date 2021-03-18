@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +11,9 @@
     <link rel="stylesheet" href="css/Font-awesome/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/bootstrap.min.js"></script>
-    <title>Contacto</title>
+    <title>Inicio</title>
 </head>
-
-<body id="contact">
+<body id="index">
     <nav class="navbar navbar-expand-sm">
         <div class="container my-0 my-sm-2 px-2 px-sm-0">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerButton" aria-controls="navbarTogglerButton" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
@@ -23,16 +21,16 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerButton">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link activePage" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="me.html">Sobre mí</a>
+                        <a class="nav-link" href="me.php">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="proyects.html">Proyectos</a>
+                        <a class="nav-link" href="proyects.php">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link activePage" href="contact.html">Contacto</a>
+                        <a class="nav-link" href="contact.php">Contacto</a>
                     </li>
                 </ul>
                 <div class="my-2 my-sm-0">
@@ -45,7 +43,7 @@
         <div class="container mt-5 mb-3">
             <div class="row">
                 <div class="col-12 px-2 px-sm-0">
-                    <h1>Contacto</h1>
+                    <h1>Inicio</h1>
                 </div>
             </div>
         </div>
@@ -53,36 +51,26 @@
     <main>
         <section>
             <div class="container">
-                <div class="row my-3">
-                    <div class="col-12 col-sm-6 px-2 px-sm-0 pt-0">
-                        <p>Te invito a que te contactes enviándome un correo o a través de <a href="https://api.whatsapp.com/send?phone=541154768187" target="_blank">whatsapp</a></p>
-                    </div>
-                    <div class="col-12 col-sm-6 px-2 px-sm-0 pt-0">
-                        <form action="" method="post" class="pt-0">
-                            <div class="my-2 px-2 px-sm-0">
-                                <input type="text" name="txtName" id="txtName" class="form-control shadow py-2" placeholder="Nombre" required>
-                            </div>
-                            <div class="my-2 px-2 px-sm-0">
-                                <input type="email" name="txtEmail" id="txtEmail" class="form-control shadow py-2" placeholder="Correo" required>
-                            </div>
-                            <div class="my-2 px-2 px-sm-0">
-                                <textarea name="txtMessage" id="txtMessage" class="form-control shadow" placeholder="Comentarios"></textarea>
-                            </div>
-                            <div class="row my-3 justify-content-between">
-                                <div class="col-10 mx-3 mx-sm-2 px-2 px-sm-0 whiteContainer">
-                                    <input type="checkbox" name="chkNotRobot" id="chkNotRobot" required>
-                                    <label for="chkNotRobot" class="form-check-label">No soy un Robot</label>
-                                </div>
-                                <div class="col-2 mx-3 mx-sm-2 px-2 px-sm-0">
-                                    <button class="btn submitButton" type="submit">ENVIAR</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="profileContainer">
+                            <h2>Hola, mi nombre es Orlando y soy desarrollador full stack. | <i class="fas fa-search"></i></h2>
+                        </div>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 mx-3 mx-sm-2 py-3 buttonContainer">
+                        <a href="proyects.php"><button class="btn proyectsButton" type="button">MIRA MI TRABAJO</button></a>
+                    </div>
+                </div>
+
             </div>
+
         </section>
+
     </main>
+
+
     <footer>
         <div class="container">
             <div class="row mt-5">
@@ -103,5 +91,4 @@
         </div>
     </footer>
 </body>
-
 </html>
