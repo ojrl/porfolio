@@ -9,14 +9,14 @@ nav a{
     color: black;
     font-weight: 600;
 }
+nav .active{
+    border: solid 1px #E20000;
+    border-radius: 24px;
+}
 nav .navbar-toggler{
     background-color: white;
     border: solid 4px #E20000;
     color: #E20000;
-}
-.active{
-    border: solid 1px #E20000;
-    border-radius: 24px;
 }
 h1{
     color: #E20000;
