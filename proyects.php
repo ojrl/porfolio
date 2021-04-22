@@ -42,7 +42,7 @@
                             <h2>abm clientes</h2>
                         </div>
                         <div class="col-12 py-3">
-                            <p>Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
+                            <p>Sistema de Altas, bajas y modificaciones de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
                         </div>
                         <div class="col-12 py-3">
                             <div class="row pt-3 pb-0">
