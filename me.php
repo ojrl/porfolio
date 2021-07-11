@@ -30,7 +30,7 @@
                             <a href="https://linkedin.com" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
                         <div class="col-6">
-                            <a class="btn" href="">Descarga mi CV</a>
+                            <a class="btn" href="curriculum.php">Descarga mi CV</a>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@
                 </li>
             </ul>
             <div class="my-2 my-sm-0">
-                <a class="btn" href="">Descarga mi CV <i class="fas fa-download"></i></a>
+                <a class="btn" href="curriculum.php">Descarga mi CV <i class="fas fa-download"></i></a>
             </div>
         </div>
     </div>
