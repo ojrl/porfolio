@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 px-2 px-sm-0">
                     <h1>Sobre mí</h1>
-                    <p class="my-4">Soy Desarrollador web full-stack, apasionado por la tecnología y la gestión de proyectos.</p>
+                    <p class="my-4">Soy programador junior, apasionado por la tecnología y la gestión de proyectos.</p>
                     <div class="row">
                         <div class="col-6">
                             <a href="https://github.com/ojrl" title="Githup" target="_blank"><i class="fab fa-github me-2"></i></a>
@@ -50,15 +50,9 @@
                         <h2>Tecnologías de programación</h2>
                     </div>
                     <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center mx-0 px-4 py-5">
-                            <p class="mb-0">PHP</p>
-                            <img src="pictures/php-icon.jpg" alt="PHP">
-                        </div>
-                    </div> 
-                    <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center mx-0 px-4 py-5">
-                            <p class="mb-0">Javascript</p>
-                            <img src="pictures/javascript-icon.jpeg" alt="Javascript">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">Git</p>
+                            <img src="pictures/git-icon.png" alt="Git">
                         </div>
                     </div> 
                     <div class="col-6 col-sm-2 mb-4">
@@ -80,27 +74,9 @@
                         </div>
                     </div> 
                     <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center py-5">
-                            <p class="mb-0">Git</p>
-                            <img src="pictures/git-icon.png" alt="Git">
-                        </div>
-                    </div> 
-                    <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center py-5">
-                            <p class="mb-0">React.js</p>
-                            <img src="pictures/reac-js-icon.png" alt="React.js">
-                        </div>
-                    </div> 
-                    <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center py-5">
-                            <p class="mb-0">Laravel</p>
-                            <img src="pictures/laravel-icon.png" alt="Laravel">
-                        </div>
-                    </div> 
-                    <div class="col-6 col-sm-2 mb-4">
-                        <div class="card align-items-center py-5">
-                            <p class="mb-0">MySQL</p>
-                            <img src="pictures/mysql-icon.png" alt="MySQL">
+                        <div class="card align-items-center mx-0 px-4 py-5">
+                            <p class="mb-0">Javascript</p>
+                            <img src="pictures/javascript-icon.jpeg" alt="Javascript">
                         </div>
                     </div> 
                     <div class="col-6 col-sm-2 mb-4">
@@ -111,8 +87,32 @@
                     </div> 
                     <div class="col-6 col-sm-2 mb-4">
                         <div class="card align-items-center py-5">
+                            <p class="mb-0">Laravel</p>
+                            <img src="pictures/laravel-icon.png" alt="Laravel">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
                             <p class="mb-0">Apache</p>
                             <img class="apacheIcon"src="pictures/apache.icon.png" alt="Apache">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center mx-0 px-4 py-5">
+                            <p class="mb-0">PHP</p>
+                            <img src="pictures/php-icon.jpg" alt="PHP">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">MySQL</p>
+                            <img src="pictures/mysql-icon.png" alt="MySQL">
+                        </div>
+                    </div> 
+                    <div class="col-6 col-sm-2 mb-4">
+                        <div class="card align-items-center py-5">
+                            <p class="mb-0">React.js</p>
+                            <img src="pictures/reac-js-icon.png" alt="React.js">
                         </div>
                     </div> 
                     <div class="col-6 col-sm-2 mb-4">
@@ -176,19 +176,20 @@
                     <div class="col-12 col-sm-6 shadow my-2 my-sm-0 experienceContainer">
                         <div class="row">
                             <div class="col-4 py-2">
-                                <i class="fas fa-building py-3"></i>
+                                <i class="fas fa-building py-2"></i>
                             </div>
                             <div class="col-8 py-3">
                                 <div>
-                                    <h3 class="mb-1">Nombre del cargo</h3>
-                                    <h4>Nombre de la empresa </h4>
-                                    <p>Tiempo de duración</p>
-                                    <p class="workDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                    <h3 class="mb-1">Auditor Junior</h3>
+                                    <h4>Arellano Investigación de Marketing </h4>
+                                    <p>3 meses</p>
+                                    <p class="workDescription">- Control de inventarios.<br>- Registro de documentos de compra.<br>- Análisis y reporte de ventas mensuales.<br>- Busqueda de nuevas contrataciones.</p>
+
                                 </div>
                             </div>
                             <div class="row justify-content-end pb-3">
                                 <div class="col-4">
-                                    <a class="btn" href="">Ver empresa</a>
+                                    <a class="btn" href="https://www.arellano.pe/" target="_blank">Ver empresa</a>
                                 </div>
                             </div>
                         </div>
@@ -200,15 +201,15 @@
                             </div>
                             <div class="col-8 py-3">
                                 <div>
-                                    <h3 class="mb-1">Nombre del cargo</h3>
-                                    <h4>Nombre de la empresa </h4>
-                                    <p>Tiempo de duración</p>
-                                    <p class="workDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                    <h3 class="mb-1">Agente de Migración</h3>
+                                    <h4>SAIME</h4>
+                                    <p>4 años y 3 meses</p>
+                                    <p class="workDescription">- Revisión de documentos de pasajeros en vuelos internacionales.<br>- Chequeo de pasajeros en sistema.<br>- Control de movimientos migratorios.</p>
                                 </div>
                             </div>
                             <div class="row justify-content-end pb-3">
                                 <div class="col-4">
-                                    <a class="btn" href="">Ver empresa</a>
+                                    <a class="btn" href="http://www.saime.gob.ve/" target="_blank">Ver empresa</a>
                                 </div>
                             </div>
                         </div>
@@ -234,15 +235,15 @@
                             </div>
                             <div class="col-8 py-3">
                                 <div>
-                                    <h3 class="mb-1">Nombre del curso</h3>
-                                    <h4>Nombre de la empresa </h4>
-                                    <p>Tiempo de duración</p>
-                                    <p class="studieDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
+                                    <h3 class="mb-1">TSU Administración Aduanera</h3>
+                                    <h4>Universidad Simón Bolívar</h4>
+                                    <p>3 años</p>
+                                    <p class="studieDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, magnam.</p>
                                 </div>
                             </div>
                             <div class="row justify-content-end pb-3">
                                 <div class="col-4">
-                                    <a class="btn" href="">Ver empresa</a>
+                                    <a class="btn" href="http://www.usb.ve/" target="_blank">Ver empresa</a>
                                 </div>
                             </div>
                         </div>
@@ -254,15 +255,15 @@
                             </div>
                             <div class="col-8 py-3">
                                 <div>
-                                    <h3 class="mb-1">Nombre del curso</h3>
-                                    <h4>Nombre de la empresa </h4>
-                                    <p>Tiempo de duración</p>
+                                    <h3 class="mb-1">Desarrollador Web Full Stack</h3>
+                                    <h4>DepcSuite</h4>
+                                    <p>6 meses</p>
                                     <p class="studieDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt quidem sit nobis asperiores minima doloribus provident repudiandae ad, vitae aut.</p>
                                 </div>
                             </div>
                             <div class="row justify-content-end pb-3">
                                 <div class="col-4">
-                                    <a class="btn" href="">Ver empresa</a>
+                                    <a class="btn" href="https://depcsuite.com/" target="_blank">Ver empresa</a>
                                 </div>
                             </div>
                         </div>

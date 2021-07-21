@@ -43,7 +43,7 @@
                                 <input type="email" name="txtEmail" id="txtEmail" class="form-control shadow py-2" placeholder="Correo" required>
                             </div>
                             <div class="my-2 px-2 px-sm-0">
-                                <textarea name="txtMessage" id="txtMessage" class="form-control shadow" placeholder="Comentarios"></textarea>
+                                <textarea name="txtMessage" id="txtMessage" class="form-control shadow" placeholder="Comentarios" required></textarea>
                             </div>
                             <div class="row my-3 justify-content-between">
                                 <div class="col-10 mx-3 mx-sm-2 px-2 px-sm-0 whiteContainer">
