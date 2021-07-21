@@ -68,10 +68,10 @@
                         <div class="col-12 py-3">
                             <div class="row pt-3 pb-0">
                                 <div class="col-6">
-                                    <a href="" class="btn" target="_blank">Ver online</a>
+                                    <a href="files/sistema-gestion-de-ventas/login.php" class="btn" target="_blank">Ver online</a>
                                 </div>
                                 <div class="col-6">
-                                    <a href="" class="colorLink" target="_blank">Código fuente</a>
+                                    <a href="https://github.com/ojrl/gestion-de-ventas" class="colorLink" target="_blank">Código fuente</a>
                                 </div>
                             </div>
                         </div>
